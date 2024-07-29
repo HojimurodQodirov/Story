@@ -1,0 +1,82 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.mo
+*.pyc
+*.pyo
+*.pyd
+
+# Django migrations
+*/migrations/*
+
+# Environments
+env/
+venv/
+ENV/
+venv.bak/
+
+# Database
+*.db
+*.sqlite3
+
+# Static and media files
+staticfiles/
+media/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Environment variable files
+.env
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+__pycache__/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Pylint
+pylint.log
+
+# Local history for IntelliJ-based IDEs
+.localhistory/
